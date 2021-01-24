@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.alinearT {
+    text-align: center;
+}
+
+.centrar {
+    margin: auto;
+    width: 50%;
+    padding-left: 5px;
+}
+
+/*Sistema de inventario*/
+.display {
+    position: relative;
+    border: 1px solid #9F9F9F;
+    border-radius: 4px;
+    flex: 0 0 95%;
+    color: black;
+}
+
+.display label {
+    font-size: 14pt;;
+}
+
+.display input[type="text"], .display input[type="number"]
+{
+    width: 98%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    background-color: #E1E1E1;
+    font-size: 14pt;
+}
+
+.button:hover {
+    background-color: #a6ff0b;
+}
+.button
+{
+    height: 40px;
+    width: 100px;
+    margin-top: 60px;
+    border: none;
+    color: white;
+    background-color: #71b100;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+/*Inventario*/
+.tabla {
+    width:80%;
+    height: 310px;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-size: 14pt;
+}
+
+.tabla img {
+    float: left;
+    margin: 25px;
+    width: 300px;
+    height: 270px;
+}
+
+.tabla input[type="submit"]{
+    float: right;
+}
+
+/*Venta*/
+.box {
+    margin: 0 auto;
+    padding: 40px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box img {
+    float: left;
+    height: 300px;
+    margin-right: 20px;
+    display:block;
+    border:none;
+}
+
+.box label {
+
+}
